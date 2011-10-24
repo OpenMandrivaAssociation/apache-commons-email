@@ -3,7 +3,7 @@
 
 Name:             apache-%{short_name}
 Version:          1.2
-Release:          2
+Release:          1
 Summary:          Apache Commons Email Package
 Group:            Development/Java
 License:          ASL 2.0
@@ -15,14 +15,14 @@ Source1:          %{short_name}.depmap
 BuildArch:        noarch
 
 BuildRequires:    java-devel >= 0:1.6.0
-BuildRequires:    jpackage-utils >= 0:1.7.5
+BuildRequires:    jpackage-utils
 BuildRequires:    apache-commons-parent
 BuildRequires:    javamail
 Requires:         javamail
 Requires:         java >= 0:1.6.0
-Requires:         jpackage-utils >= 0:1.7.5
-Requires(post):   jpackage-utils >= 0:1.7.5
-Requires(postun): jpackage-utils >= 0:1.7.5
+Requires:         jpackage-utils
+Requires(post):   jpackage-utils
+Requires(postun): jpackage-utils
 
 %description
 Commons-Email aims to provide an API for sending email. It is built on top of 
@@ -31,7 +31,7 @@ the JavaMail API, which it aims to simplify.
 %package javadoc
 Summary:          Javadoc for %{name}
 Group:            Development/Java
-Requires:         jpackage-utils >= 0:1.7.5
+Requires:         jpackage-utils
 
 %description javadoc
 This package contains the API documentation for %{name}.
