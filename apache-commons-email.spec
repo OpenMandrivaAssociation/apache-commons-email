@@ -3,7 +3,7 @@
 
 Name:             apache-%{short_name}
 Version:          1.2
-Release:          3
+Release:          4
 Summary:          Apache Commons Email Package
 Group:            Development/Java
 License:          ASL 2.0
