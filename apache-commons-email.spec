@@ -6,7 +6,7 @@ Version:          1.3.1
 Release:          7%{?dist}
 Summary:          Apache Commons Email Package
 License:          ASL 2.0
-URL:              http://commons.apache.org/proper/%{short_name}/
+URL:              https://commons.apache.org/proper/%{short_name}/
 BuildArch:        noarch
 
 Source0:          http://archive.apache.org/dist/commons/email/source/%{short_name}-%{version}-src.tar.gz
